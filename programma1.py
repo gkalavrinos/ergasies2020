@@ -10,7 +10,7 @@ sortedwords=sortedwords[-1::-1]
 vowels=("a","e","i","o","u")
 #5 πρώτα στοιχεία==5 μεγαλύτερες λέξεις
 for i in range(5):
-    #προσπέλαση του κάθε στοιχείου/γράμματος του string 
+    #προσπέλαση του κάθε στοιχείου/γράμματος του κάθε string/λέξης 
     for x in sortedwords[i].lower():
         if x in vowels:
             #αντικατάσταση φωνηέντων με whitespace
